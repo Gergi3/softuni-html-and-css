@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+html body {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface";
+}
+
+.icon {
+  width: 1rem;
+}
+
+.grid-container {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 850px 650px;
+  grid-template-areas: 
+    "header header header header header header header header header header"
+    "main main main main main main main aside aside aside";
+}
+.grid-container .header {
+  grid-area: header;
+}
+.grid-container .main {
+  grid-area: main;
+}
+.grid-container .aside {
+  grid-area: aside;
+}
+
+.header {
+  background-image: url('./image/image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.header .header__title-box {
+  width: 200px;
+  padding: 25px 50px 25px 15px;
+  border: 1px solid;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  border: 0px;
+	box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 0.5);
+}
+.header .line-separator {
+  background-color: white;
+  margin: 6px 0;
+  height: 2px;
+  width: 100%;
+}
+.header .header__info-box {
+  max-width: 260px;
+  padding: 30px 10px 10px 10px;
+  text-align: right;
+  border: 1px solid;
+  position: absolute;
+  right: 0;
+  top: 218px;
+}
+.header .header__info-text::before {
+  content: "\"";
+  font-size: 5rem;
+  display: inline-block;
+}

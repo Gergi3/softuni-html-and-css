@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 40px 200px 40px 40px;
+}
+
+.article, .aside {
+    display: inline-block;
+}
+
+.article {
+    width: 75%;
+    float: left;
+}
+
+.article .section .section__image {
+    width: 100%;
+}
+
+.aside {
+    width: 25%;
+}
+
+
+.aside .aside__list {
+    text-indent: 10px;
+    list-style-type: square;
+}
+
+.aside .aside__list .aside__list-item {
+    line-height: 23px;
+}

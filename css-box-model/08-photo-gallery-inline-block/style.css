@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 5rem;
+    background-color: #eee;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.gallery .gallery__picture-item {
+    display: inline-block;
+    width: 18rem;
+    background-color: #fff;
+    border: 0.4rem solid #000;
+    vertical-align: middle;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.gallery .gallery__picture {
+    display: block;
+    width: 100%;
+    height: auto;
+}

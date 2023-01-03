@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 50px;
+}
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.header .header__title {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header .navbar {
+    display: inline-block;
+}
+
+.header .navbar .navbar__list {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+.header .navbar .navbar__list-item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.header .navbar .navbar__list-item-link {
+    text-decoration: none;
+    color: #529900;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.content .content__title {
+    font-weight: 500;
+}

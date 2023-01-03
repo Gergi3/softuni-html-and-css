@@ -1,0 +1,28 @@
+.list {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+}
+
+.list-item {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.list-link {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
+    color: #000;
+}
+
+.list-link:hover {
+    color: lightblue;
+}
+
+.fa-icon {
+    width: 16px !important;
+    height: 16px !important;
+}

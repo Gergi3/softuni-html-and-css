@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+}
+
+.navbar ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.articles-container {
+    margin-left: 20px;
+}
+
+.article-text {
+    font-size: 24px;
+}
+
+.article-info {
+    font-style: italic;
+}
+
+.article-title {
+    font-size: 28px;
+}
+
+
+
+.global-footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright-text {
+    margin: 0;
+}

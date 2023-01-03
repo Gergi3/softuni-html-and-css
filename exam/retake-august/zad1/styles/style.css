@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+:root {
+  --clr-heading: #333333;
+  --clr-text: #8b6d6d;
+  --clr-btn: #AE3C33;
+  --clr-white: #FAFAFA;
+  --clr-checkbox: #857171;
+}
+
+body {
+  font-family: "Mulish";
+  color: var(--clr-text);
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-wrapper {
+  background-color: white;
+  background: url("../images/form-background.png");
+  background-size: cover;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.form {
+  width: 60%;
+  height: 100%;
+  padding: 90px 55px 50px 55px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__title {
+  color: var(--clr-heading);
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+
+.form .half {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.form .control,
+.form .control * {
+  width: 100%;
+}
+
+.form .control__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form .control__input {
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: transparent;
+} 
+
+.form .control-checkbox {
+  align-self: start;
+  margin-bottom: 30px;
+}
+
+.btn {
+  color: var(--clr-white);
+  border: 0px;
+  background-color: var(--clr-btn);
+  padding: 10px 25px;
+  border-radius: 100px;
+}

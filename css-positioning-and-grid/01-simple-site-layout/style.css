@@ -1,0 +1,47 @@
+.header, .aside, .main, .footer {
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+    grid-template-columns: 100px auto;
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.navigation .navigation__list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+.navigation .navigation__list-item-link {
+    display: block;
+    color: rgb(86, 40, 129);
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

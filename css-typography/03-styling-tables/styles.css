@@ -1,0 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+}
+
+.country-table th {
+    background-color: lightblue;
+}
+
+.country-table th, .country-table td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding: 0 0 0 5px;
+}

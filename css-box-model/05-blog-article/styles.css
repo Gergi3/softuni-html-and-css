@@ -1,0 +1,38 @@
+body {
+    background-color: #02475e;
+}
+
+.article .article__title {
+    margin: 12px;
+    text-align: center;
+    font-size: 36px;
+    color: #fefecc;
+}
+
+.article .article__date-wrapper {
+    position: relative;
+    top: 20px;
+    margin-bottom: 30px;
+    border-top: 2px solid #fff;
+}
+
+.article .article__date {
+    display: block;
+    position: relative;
+    top: -11px;
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: black;
+}
+
+.article .article__description {
+    padding: 10px;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    text-indent: 30px;
+    color: #eee;
+}

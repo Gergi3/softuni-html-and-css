@@ -1,0 +1,25 @@
+/* •	
+•	font-style: italic
+•	color: 
+; */
+
+body {
+    background-color: #e4e978;
+}
+
+.box {
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    margin: 15px 10px;
+    padding: 5px 15px;
+    width: 700px;
+}
+
+.comments-box-heading {
+    font-size: 32px;
+}
+
+.comment-section {
+    color:  #4c7658;
+    font-style: italic;
+}

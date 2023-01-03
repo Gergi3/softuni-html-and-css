@@ -1,0 +1,166 @@
+/* Global */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  padding: 50px;
+  font-size: 0;
+}
+
+a {
+  color: rgb(0, 102, 0);
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+  font-family: Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+/* Main */
+.main {
+  display: inline-block;
+  width: calc(80% - 80px);
+}
+
+/* Header */
+.header {
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #000;
+}
+
+.header .header__title {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+.navigation {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  vertical-align: text-bottom;
+}
+
+.navigation .navigation__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation .navigation__list-item {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1rem;
+}
+
+.navigation .navigation__list-item-link {
+  text-decoration: none;
+}
+
+/* Article header */
+.article .article__header {
+  margin-bottom: 15px;
+}
+
+.article .article__header-title {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+/* Article content (img, p, blockquote) */
+.article .article__paragraph {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.article .article__heading {
+  margin: 50px 0 12px 0;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.article .article__image {
+  padding: 8px;
+  border: 3px solid #000;
+  box-shadow: 0 0 3rem 0.7rem rgba(0, 0, 0, 0.25);
+}
+
+.article .article__image.fr {
+  margin: 25px 0 0 25px;
+}
+
+.article .article__image.fl {
+  margin: 0 25px 25px 0;
+}
+
+/* Blockquote */
+.blockquote {
+  width: 50%;
+  padding-left: 30px;
+  margin: 0 0 25px 25px;
+  color: rgb(80, 80, 80);
+  border-left: 5px solid lightgray;
+  float: right;
+}
+
+.blockquote .blockquote__paragraph {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.blockquote .blockquote__author {
+  font-size: 1rem;
+  padding-bottom: 40px;
+  text-align: right;
+}
+
+/* Aside */
+.aside {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  margin-left: 80px;
+}
+
+.aside .aside__block-list {
+  list-style-type: square;
+}
+
+.aside .aside__block-title {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.aside .aside__block-list {
+  font-size: 1rem;
+}
+
+.aside .aside__block-list-item-link {
+  text-decoration: none;
+  color: rgb(167, 128, 1);
+}

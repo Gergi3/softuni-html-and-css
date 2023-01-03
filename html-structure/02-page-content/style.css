@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+}
+
+.content-wrapper {
+    margin-left: 20px;
+}
+
+.article-text {
+    font-size: 24px;
+}
+
+.article-info {
+    font-style: italic;
+}
+
+.article-title {
+    font-size: 28px;
+}

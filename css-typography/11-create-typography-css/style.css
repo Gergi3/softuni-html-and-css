@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+blockquote {
+    border-left: 5px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-bottom: 40px;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+blockquote * {
+    padding-left: 40px;
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+.circle-list {
+    list-style-type: circle;
+}
+
+.disc-list {
+    list-style-type: disc;
+}
+
+ul {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
